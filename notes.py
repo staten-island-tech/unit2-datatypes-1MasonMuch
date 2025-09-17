@@ -97,3 +97,39 @@
 # print(len("This Sentance"))
 
 # counts letters including spaces.
+
+
+#truth tables:
+
+#   Friend  Money   Go movies
+#   T       T       T
+#   T       F       F
+#   F       T       F
+
+#or makes trues as long as one trues
+
+# friend_comes = True
+# money = True
+
+
+
+
+
+# def and_movies(friend, money):
+#     if friend == True and money ==True:
+#         print("Going to the Movies")
+#     else:
+#         print("I have no friends or I have no money") 
+
+
+# homework = True 
+
+# def not_movies(homework):
+#     if not homework:
+#         print("movie time")
+#     else:
+#         print("Homework time I hate Russian")
+# not_movies(homework)
+
+# def get_bill():
+#     if not XXX 

@@ -19,4 +19,29 @@
 # print(values[6])
 
 # print(values[7]) -This wouldnt work since there is no value "7" 
-#python starts counting at 0
+#python starts counting at 0 
+
+# "test"
+# ["t","e","s","t"]
+
+# x = "this is a thing"
+# y = x.split()
+# z = y[0]
+# print(y)
+# print(z)
+
+#_____________________
+#Challenge
+
+
+# # creates an input called sentance
+# sentance = input("write any sentance")
+# # now creates words which is sentanc split
+# words = sentance.split()
+# # prints the length of words
+# print(len(words))
+
+day_of_week = input("what day is it?")
+if day_of_week == "Friday":
+    print("Yay it's Friday!")
+    
