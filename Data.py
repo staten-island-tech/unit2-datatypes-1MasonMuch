@@ -41,7 +41,54 @@
 # # prints the length of words
 # print(len(words))
 
-day_of_week = input("what day is it?")
-if day_of_week == "Friday":
-    print("Yay it's Friday!")
-    
+
+
+# day_of_week = input("what day is it?")
+# if day_of_week == "Friday":
+#     print("Yay it's Friday!")
+# else:
+#     print("Aw man")
+
+
+#F strings
+
+# x = "test"
+# print(f"hello {x}")
+
+
+
+# temp = 75
+# if temp > 68:
+#     print('warm')
+# elif temp == 68:
+#     print('perfect')
+
+# else:
+#     print('cold')
+
+
+#______________________________________
+#challenge
+
+# n = int(input('please input a number')) 
+# x = n 
+# if x % 2 ==0:
+#     print('even')
+# else:
+#     print('odd')
+
+#_____________________________________
+#challenge
+
+food_cost = int(input('How much did your foood cost?'))
+service = input("How was the service? bad, okay, good or great?")
+x = food_cost
+
+if service == 'bad':
+    print(food_cost * 0)
+elif service == 'okay':
+    print(food_cost * 0.15)
+elif service == 'good': 
+    print(food_cost * 0.20)
+elif service == 'great':
+    print(food_cost * 0.25)
