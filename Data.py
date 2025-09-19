@@ -80,15 +80,36 @@
 #_____________________________________
 #challenge
 
-food_cost = int(input('How much did your foood cost?'))
-service = input("How was the service? bad, okay, good or great?")
-x = food_cost
+# food_cost = int(input('How much did your foood cost?'))
+# service = input("How was the service? bad, okay, good or great?")
+# x = food_cost
 
-if service == 'bad':
-    print(food_cost * 0)
-elif service == 'okay':
-    print(food_cost * 0.15)
-elif service == 'good': 
-    print(food_cost * 0.20)
-elif service == 'great':
-    print(food_cost * 0.25)
+# if service == 'bad':
+#     print(food_cost * 0)
+# elif service == 'okay':
+#     print(food_cost * 0.15)
+# elif service == 'good': 
+#     print(food_cost * 0.20)
+# elif service == 'great':
+#     print(food_cost * 0.25)
+
+#________________________________________________
+#challenge
+
+# number = int(input("What is you number?")) 
+# divisor = 1  
+# for i in range(number):
+#     if number % divisor ==0:
+#         print(divisor)
+#     divisor = divisor + 1 
+
+#__________________________________________________
+#challenge
+
+number_1 = int(input("What is your first number number?")) 
+divisor_1 = 1  
+factors_1 = []
+for i in range(number_1):
+     if number_1 % divisor_1 ==0:
+         factors_1.append(divisor_1)
+     divisor_1 = divisor_1 + 1
