@@ -113,3 +113,20 @@ for i in range(number_1):
      if number_1 % divisor_1 ==0:
          factors_1.append(divisor_1)
      divisor_1 = divisor_1 + 1
+
+number_2 = int(input("What is your second number?"))
+divisor_2 = 1  
+factors_2 = []
+for i in range(number_2):
+     if number_1 % divisor_2 ==0:
+         factors_2.append(divisor_2)
+     divisor_2 = divisor_2 + 1
+
+number_1_set = set(number_1)
+number_2_set = set(number_2)
+
+common_factors = number_1_set.intersection(number_2_set)
+if common_factors:
+    greatest_common_factor = max(common_factors)
+
+    print(greatest_common_factor)
