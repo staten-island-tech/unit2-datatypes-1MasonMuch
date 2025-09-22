@@ -106,29 +106,41 @@
 #__________________________________________________
 #challenge
 
-number_1 = int(input("What is your first number number?")) 
-divisor_1 = 1  
-factors_1 = []
-for i in range(number_1):
-     if number_1 % divisor_1 == 0:
-         factors_1.append(divisor_1)
-     divisor_1 = divisor_1 + 1
+# number_1 = int(input("What is your first number number?")) 
+# divisor_1 = 1  
+# factors_1 = []
+# for i in range(number_1):
+#      if number_1 % divisor_1 == 0:
+#          factors_1.append(divisor_1)
+#      divisor_1 = divisor_1 + 1
 
-number_2 = int(input("What is your second number?"))
-divisor_2 = 1  
-factors_2 = []
-for i in range(number_2):
-     if number_2 % divisor_2 == 0:
-         factors_2.append(divisor_2)
-     divisor_2 = divisor_2 + 1
+# number_2 = int(input("What is your second number?"))
+# divisor_2 = 1  
+# factors_2 = []
+# for i in range(number_2):
+#      if number_2 % divisor_2 == 0:
+#          factors_2.append(divisor_2)
+#      divisor_2 = divisor_2 + 1
 
-factors_1_set = set(factors_1)
-factors_2_set = set(factors_2)
+# factors_1_set = set(factors_1)
+# factors_2_set = set(factors_2)
 
-common_factors = factors_1_set.intersection(factors_2_set)
-if common_factors:
-    greatest_common_factor = max(common_factors)
+# common_factors = factors_1_set.intersection(factors_2_set)
+# if common_factors:
+#     greatest_common_factor = max(common_factors)
 
-    print(greatest_common_factor)
-else:
-    print("No common Factors.")
+#     print(greatest_common_factor)
+# else:
+#     print("No common Factors.")
+
+# DO NOT DO THIS OVER COMPLICATED^^^^^^^^^^^^
+
+x = int(input('plase input 1st nuumber'))
+y = int(input('plase input 2nd nuumber'))
+divisor = 1
+gcf = 0 
+for i in range(x+1):
+    if x % divisor == 0 and y % divisor ==0:
+        gcf = divisor 
+    divisor = divisor + 1
+print(gcf)
