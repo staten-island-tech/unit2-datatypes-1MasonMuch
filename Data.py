@@ -110,7 +110,7 @@ number_1 = int(input("What is your first number number?"))
 divisor_1 = 1  
 factors_1 = []
 for i in range(number_1):
-     if number_1 % divisor_1 ==0:
+     if number_1 % divisor_1 == 0:
          factors_1.append(divisor_1)
      divisor_1 = divisor_1 + 1
 
@@ -118,15 +118,17 @@ number_2 = int(input("What is your second number?"))
 divisor_2 = 1  
 factors_2 = []
 for i in range(number_2):
-     if number_1 % divisor_2 ==0:
+     if number_2 % divisor_2 == 0:
          factors_2.append(divisor_2)
      divisor_2 = divisor_2 + 1
 
-number_1_set = set(number_1)
-number_2_set = set(number_2)
+factors_1_set = set(factors_1)
+factors_2_set = set(factors_2)
 
-common_factors = number_1_set.intersection(number_2_set)
+common_factors = factors_1_set.intersection(factors_2_set)
 if common_factors:
     greatest_common_factor = max(common_factors)
 
     print(greatest_common_factor)
+else:
+    print("No common Factors.")
