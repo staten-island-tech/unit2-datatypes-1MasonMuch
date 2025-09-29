@@ -137,10 +137,9 @@
 
 x = int(input('plase input 1st nuumber'))
 y = int(input('plase input 2nd nuumber'))
-divisor = 1
 gcf = 0 
-for i in range(x+1):
-    if x % divisor == 0 and y % divisor ==0:
-        gcf = divisor 
-    divisor = divisor + 1
+for i in range(1, (x) + 1):
+    if x % i == 0 and y % i ==0:
+        gcf = i 
+    i = i + 1
 print(gcf)
